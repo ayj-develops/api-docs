@@ -15,6 +15,7 @@ content_markdown: |-
   | 400  | Bad Request  | We could not process that action                          |
   | 401  | Unauthorized | We could not verify who you say you are                   |
   | 403  | Forbidden    | You do not have enough permission to access this resource |
+  | 409  | Conflict     | There might be a resource with the same attributes        |
 
   All errors will return JSON in the following format.
 
