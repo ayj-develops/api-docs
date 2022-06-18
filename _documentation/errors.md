@@ -27,7 +27,8 @@ right_code_blocks:
   - code_block: |-
       {
         "status": "error",
-        "message": "error message here"
+        "message": "error message here",
+        "stacktrace": "stack trace here",
       }
     title: Response
     language: json
