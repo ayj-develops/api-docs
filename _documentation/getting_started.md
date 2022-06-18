@@ -5,11 +5,7 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  Welcome to our API.
-
-  This API document is designed for those interested in developing for our platform.
-
-  This API is still under development and will evolve.
+  The API is still under development but this API will provide information and handle the creation of posts/events, clubs, users and comments.
 
   You'll succeed if you do this.
   {: .success }

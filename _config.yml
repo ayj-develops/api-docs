@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Aviator
+title: AYJ Clubs API Docs
 description: Jekyll template for API documentation.
 url: https://example.com
 google_analytics_key:
@@ -29,18 +29,15 @@ exclude:
   - LICENSE
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: default
-  -
-    scope:
+  - scope:
       type: "documentation"
     values:
       _hide_content: true
-  -
-    scope:
+  - scope:
       type: "api"
     values:
       _hide_content: true

@@ -5,15 +5,24 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  | Code | Name | Description |
-  | --- | --- | --- |
-  | 200 | OK | Success |
-  | 201 | Created | Creation Successful |
-  | 400 | Bad Request | We could not process that action |
-  | 403 | Forbidden | We couldn't authenticate you |
 
-  All errors will return JSON in the following format:
+  Here are the status codes returned with the Error.
+
+  | Code | Name         | Description                                               |
+  | ---- | ------------ | --------------------------------------------------------- |
+  | 200  | OK           | Success                                                   |
+  | 201  | Created      | Creation Successful                                       |
+  | 400  | Bad Request  | We could not process that action                          |
+  | 401  | Unauthorized | We could not verify who you say you are                   |
+  | 403  | Forbidden    | You do not have enough permission to access this resource |
+
+  All errors will return JSON in the following format.
+
 left_code_blocks:
+  - code_block:
+    title:
+    language:
+right_code_blocks:
   - code_block: |-
       {
         "error": true,
@@ -21,8 +30,4 @@ left_code_blocks:
       }
     title: Response
     language: json
-right_code_blocks:
-  - code_block:
-    title:
-    language:
 ---
