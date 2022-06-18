@@ -26,7 +26,7 @@ left_code_blocks:
 right_code_blocks:
   - code_block: |-
       {
-        "error": true,
+        "status": "error",
         "message": "error message here"
       }
     title: Response
