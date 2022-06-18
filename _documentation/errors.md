@@ -19,6 +19,8 @@ content_markdown: |-
 
   All errors will return JSON in the following format.
 
+  Stack trace might not be sent when the message is of sufficient detail or when it is treated as a custom validation error.
+
 left_code_blocks:
   - code_block:
     title:
