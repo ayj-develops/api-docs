@@ -2,8 +2,8 @@
 # Site
 
 title: AYJ Clubs API Docs
-description: Jekyll template for API documentation.
-url: https://example.com
+description: AYJ Clubs API Docs
+url: https://ayj-develops.github.io/api-docs
 google_analytics_key:
 permalink: pretty
 baseurl:
@@ -17,9 +17,12 @@ collections:
   documentation:
     title: Documentation
     position_number: 1
-  api:
-    title: APIs
+  user:
+    title: User APIs
     position_number: 2
+  club:
+    title: Club APIs
+    position_number: 3
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -38,7 +41,11 @@ defaults:
     values:
       _hide_content: true
   - scope:
-      type: "api"
+      type: "club"
+    values:
+      _hide_content: true
+  - scope:
+      type: "user"
     values:
       _hide_content: true
 
